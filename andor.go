@@ -3,16 +3,17 @@ package main
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/alexflint/go-arg"
-	"github.com/common-nighthawk/go-figure"
-	"github.com/fatih/color"
-	"github.com/inancgumus/screen"
-	"github.com/k3a/html2text"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
+
+	"github.com/alexflint/go-arg"
+	"github.com/common-nighthawk/go-figure"
+	"github.com/fatih/color"
+	"github.com/inancgumus/screen"
+	"github.com/k3a/html2text"
 )
 
 // Options : Ayarlar
